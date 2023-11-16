@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Client's Services</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Footlight MT Light;
+		}
+		header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #b795d8;
+			color: #fff;
+			padding: 10px;
+		}
+		nav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+            padding-right:50px;
+			width: 50%;
+		}
+		nav a {
+			color: rgb(250, 248, 248);
+			text-decoration: none;
+			padding: 10px;
+		}
+		nav a:hover {
+			background-color:pink;
+			color: #333;
+		}
+		section {
+			padding: 5px;
+		}
+		section h2 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #f5f5dc;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		.card h3 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.card p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.card img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+		.contact {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: grey;
+			color: #fff;
+			padding: 50px;
+		}
+		.contact h2 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		.contact p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.contact a {
+			color: #fff;
+			text-decoration: none;
+			padding-right: 10px;
+		}
+		.contact a:hover {
+			background-color: #fff;
+			color: #8e2121;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Client's Info</h1>
+		<nav>
+			<a href="#home">HOME</a>
+			<a href="#services">SERVICES</a>
+			<a href="#contact">CONTACT</a>
+		</nav>
+	</header>
+	<section id="home">
+		<h2><center>Client's Name</center></h2>
+        <br>
+		<center> <img src="https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg" alt="image" width="200px"> </center>
+	</section>
+	<section id="services">
+		<h2><center>Services</center></h2>
+		<div class="card">
+			<h3>Content Creator</h3>
+			<p> • Content creation ( blog posts, articles, social media posts, videos, in-app content, etc.)<br>
+                • Insights on content performance.<br>
+                • Development of content creation plans.<br>
+                • Automation of social media and website posts.<br>
+                • Creation of strategic changes based on insights from audience interaction with content.</p>
+		</div>
+		<div class="card">
+			<h3>Social Media Marketer</h3>
+			<p>• Identifing Business Goals.<br>• To identify ideal customers.<br>• Setting marketing objectives.<br>• Research competition.</p>
+		</div>
+	</section>
+	<section id="contact" class="contact">
+		<h2>Contact</h2>
+		<p>Phone: +91-1234567890</p>
+		<p>Email: client@gmail.com</p>
+		<a href="#home">Back to Top</a>
+	</section>
+</body>
+</html>
